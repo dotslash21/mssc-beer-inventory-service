@@ -1,8 +1,8 @@
-package xyz.arunangshu.msscbeerinventoryservice.web.mappers;
+package com.github.dotslash21.msscbeerinventoryservice.web.mappers;
 
 import org.mapstruct.Mapper;
-import xyz.arunangshu.msscbeerinventoryservice.domain.BeerInventory;
-import xyz.arunangshu.msscbeerinventoryservice.web.model.BeerInventoryDto;
+import com.github.dotslash21.msscbeerinventoryservice.domain.BeerInventory;
+import com.github.dotslash21.msscbeerinventoryservice.web.model.BeerInventoryDto;
 
 @Mapper(uses = {DateMapper.class})
 public interface BeerInventoryMapper {

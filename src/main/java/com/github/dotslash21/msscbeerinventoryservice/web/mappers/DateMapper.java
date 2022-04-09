@@ -1,4 +1,4 @@
-package xyz.arunangshu.msscbeerinventoryservice.web.mappers;
+package com.github.dotslash21.msscbeerinventoryservice.web.mappers;
 
 import org.springframework.stereotype.Component;
 

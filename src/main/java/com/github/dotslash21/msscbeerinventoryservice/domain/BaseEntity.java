@@ -1,4 +1,4 @@
-package xyz.arunangshu.msscbeerinventoryservice.domain;
+package com.github.dotslash21.msscbeerinventoryservice.domain;
 
 import lombok.*;
 import org.hibernate.Hibernate;

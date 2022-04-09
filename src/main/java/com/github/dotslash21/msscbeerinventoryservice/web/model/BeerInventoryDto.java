@@ -1,4 +1,4 @@
-package xyz.arunangshu.msscbeerinventoryservice.web.model;
+package com.github.dotslash21.msscbeerinventoryservice.web.model;
 
 import lombok.*;
 

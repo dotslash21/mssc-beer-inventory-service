@@ -1,11 +1,11 @@
-package xyz.arunangshu.msscbeerinventoryservice.bootstrap;
+package com.github.dotslash21.msscbeerinventoryservice.bootstrap;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
-import xyz.arunangshu.msscbeerinventoryservice.domain.BeerInventory;
-import xyz.arunangshu.msscbeerinventoryservice.repositories.BeerInventoryRepository;
+import com.github.dotslash21.msscbeerinventoryservice.domain.BeerInventory;
+import com.github.dotslash21.msscbeerinventoryservice.repositories.BeerInventoryRepository;
 
 import java.util.UUID;
 

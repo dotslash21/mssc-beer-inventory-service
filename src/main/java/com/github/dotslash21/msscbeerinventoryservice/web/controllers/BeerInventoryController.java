@@ -1,13 +1,13 @@
-package xyz.arunangshu.msscbeerinventoryservice.web.controllers;
+package com.github.dotslash21.msscbeerinventoryservice.web.controllers;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
-import xyz.arunangshu.msscbeerinventoryservice.repositories.BeerInventoryRepository;
-import xyz.arunangshu.msscbeerinventoryservice.web.mappers.BeerInventoryMapper;
-import xyz.arunangshu.msscbeerinventoryservice.web.model.BeerInventoryDto;
+import com.github.dotslash21.msscbeerinventoryservice.repositories.BeerInventoryRepository;
+import com.github.dotslash21.msscbeerinventoryservice.web.mappers.BeerInventoryMapper;
+import com.github.dotslash21.msscbeerinventoryservice.web.model.BeerInventoryDto;
 
 import java.util.List;
 import java.util.UUID;
